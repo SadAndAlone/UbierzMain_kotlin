@@ -5,7 +5,6 @@
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,9 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UbierzMain_kotlin"
         tools:targetApi="34">
-        <activity android:name=".SecondActivity"
+        <activity
+            android:name=".ThirdActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -28,7 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -34,7 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
 
 }
 
@@ -49,4 +51,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.biometric)
+
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
+    implementation(libs.koin)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson)
+    implementation(libs.lifecycle.viewmodel)
+    implementation(libs.coil)
+
 }
