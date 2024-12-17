@@ -49,4 +49,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.biometric)
+    implementation("org.osmdroid:osmdroid-android:6.1.14")
+
+
 }
