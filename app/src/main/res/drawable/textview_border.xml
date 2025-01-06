@@ -1,0 +1,8 @@
+<!-- res/drawable/textview_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#DDDDDD" /> <!-- Фон текстового поля -->
+    <corners android:radius="12dp" /> <!-- Закруглені кути -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" /> <!-- Колір рамки -->
+</shape>
