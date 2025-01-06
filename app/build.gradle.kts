@@ -60,4 +60,6 @@ dependencies {
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.coil)
 
+    implementation(libs.coroutines.android)
+
 }
