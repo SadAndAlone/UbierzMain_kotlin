@@ -11,27 +11,24 @@
         android:id="@+id/text_clothing_recommendation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clothing Recommendation: "
+        android:layout_marginTop="288dp"
+        android:padding="16dp"
+        android:text="Рекомендация по одежде"
+        android:textColor="#EFC805"
         android:textSize="18sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/image_clothing"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:src="@drawable/kurtka"
-        app:layout_constraintTop_toBottomOf="@id/text_clothing_recommendation"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/weather_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="Weather Image"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:scaleType="fitCenter"/>
-
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
